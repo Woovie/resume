@@ -13,6 +13,7 @@
             "name": "Launch Chrome against localhost",
             "url": "http://[::]:8000",
             "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "resumed Build",
             "postDebugTask": "Kill all debug"
         }
     ],
