@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Build resume",
+            "program": "${HOME}/.nave/installed/resume/bin/resumed",
+            "args": [
+                "render",
+                "-o",
+                "index.html"
+            ]
+        },
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Serve HTTP",
+            "args": [
+                "-m",
+                "http.server"
+            ]
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://[::]:8000",
+            "webRoot": "${workspaceFolder}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Build and test",
+            "configurations": [
+                "Build resume",
+                "Serve HTTP",
+                "Launch Chrome against localhost"
+            ],
+            "stopAll": true
+        }
+    ]
+}
