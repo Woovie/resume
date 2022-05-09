@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "resumed Build",
+            "type": "process",
+            "command": "resumed",
+            "args": [
+                "render",
+                "-o",
+                "index.html"
+            ]
+        },
+        {
+            "label": "Kill all debug",
+            "type": "shell",
+            "command": "echo ${input:terminate}",
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "terminate",
+            "type": "command",
+            "command": "workbench.action.debug.stop"
+        }
+    ]
+}
