@@ -34,7 +34,7 @@
       "position": "DevOps Support L3",
       "url": "https://insightglobal.com",
       "startDate": "2021-09-20",
-      "summary": "Big 4 accounting firm contracted for supporting a global scale application.",
+      "summary": "Big 4 accounting firm contracted for supporting and deploying a global scale application and related resources",
       "highlights": [
         "Perform code deployments using Azure DevOps",
         "Maintenance on existing hosts for patches, reboots, etc",
@@ -50,9 +50,12 @@
       "url": "https://aws.com",
       "startDate": "2020-04-13",
       "endDate": "2021-09-17",
-      "summary": "AWS is the leader in Cloud technologies, providing everyone from me to massive corporations with solutions for many technology deployments",
+      "summary": "Write, deploy, and maintain custom tools for other teams of the IAM branch in AWS",
       "highlights": [
-
+        "IaC in Ruby for a custom CI/CD pipeline system used internally at AWS",
+        "Wrote tools to provide useful features to other teams, helping speed up their daily workflows",
+        "Pipeline optimization and maintenance for other teams",
+        "Perform oncall work including working priority issues and handling service outages"
       ]
     },
     {
@@ -63,9 +66,11 @@
       "url": "https://cpanel.net",
       "startDate": "2019-12-09",
       "endDate": "2020-04-10",
-      "summary": "cPanel provides an all encompassing webhosting and related software solutions for individuals to large hosting companies like GoDaddy",
+      "summary": "Internal systems administration to provide tools and resources for the company to perform their duties",
       "highlights": [
-        ""
+        "Perform server maintenance such as OS updates, certificate updates, software updates",
+        "Helped initiate a move from standard virtual machine usage to dockerized applications, including adding CI/CD automation for easier updates",
+        "Installed and deployed new servers to their North Houston datacenter"
       ]
     },
     {
@@ -76,36 +81,49 @@
       "url": "https://cpanel.net",
       "startDate": "2018-02-12",
       "endDate": "2019-12-06",
-      "summary": "cPanel provides an all encompassing webhosting and related software solutions for individuals to large hosting companies like GoDaddy",
+      "summary": "Provide cPanel customer support and report bugs to the development team",
       "highlights": [
-
+        "Handle various forms of incoming tickets from external customers reporting issues or facing problems with usage of cPanel/WHM technologies",
+        "Report bugs via Jira, sometimes including a patch in situations where the Perl scripts were uncompiled, directly ran scripts",
+        "Help with licensing issues and server setup, including providing hardware recommendations",
+        "Assist with configuration of more advanced features"
       ]
     },
     {
       "name": "HostGator",
       "location": "Houston, TX",
-      "description": "",
+      "description": "Migration and reconfiguration of web software from external hosts to customer's hosting plans with HostGator",
       "position": "Migrations Adminstrator",
       "url": "https://hostgator.com",
-      "startDate": "2018-02-12",
-      "endDate": "2020-04-10",
+      "startDate": "2017-05-15",
+      "endDate": "2018-02-09",
       "summary": "",
       "highlights": [
-
+        "Perform migrations of customer data to our servers",
+        "Reconfiguration of migrated software and the hosting server to ensure it will function within our environment",
+        "Assist with more complex migrations either due to older hosts without easy data retrieval or software misconfiguration issues"
       ]
     },
     {
       "name": "HostGator",
       "location": "Houston, TX",
-      "description": "",
+      "description": "Phone and chat based technical support for webhosting plans",
       "position": "Technical Support I-III",
       "url": "https://hostgator.com",
-      "startDate": "2018-02-12",
-      "endDate": "2020-04-10",
+      "startDate": "2014-10-20",
+      "endDate": "2017-05-12",
       "summary": "",
       "highlights": [
-
+        ""
       ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "RedHat Certified Systems Administrator",
+      "date": "2018-01-01",
+      "url": "https://redhat.com",
+      "issuer": "RedHat"
     }
   ],
   "volunteer": [
@@ -121,36 +139,12 @@
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
   "awards": [
     {
       "title": "Digital Compression Pioneer Award",
       "date": "2014-11-01",
       "awarder": "Techcrunch",
       "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
