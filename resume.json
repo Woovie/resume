@@ -1,47 +1,112 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
+    "name": "Jordan Banasik",
+    "label": "Systems Engineer",
     "image": "",
-    "email": "richard.hendriks@mail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "woovie@woovie.net",
+    "phone": "(832) 425-3639",
+    "url": "https://me.plantain.space",
+    "summary": "Jordan is from Houston, Texas, currently residing in Seattle, Washington. His work focuses on simplifying and automating processes to both reduce complexity and increase performance of deployments, beginning at application stack and ending at client access to the application.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "15205 140th Way SE, Apt G101",
+      "postalCode": "98058",
+      "city": "Renton",
       "countryCode": "US",
-      "region": "California"
+      "region": "Washington"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
+        "username": "jdanbanan",
         "url": ""
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "Discord",
+        "username": "Jordan Banana#5555",
+        "url": "https://plantain.space"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Insight Global",
+      "location": "Remote",
+      "description": "Contract work",
+      "position": "DevOps Support L3",
+      "url": "https://insightglobal.com",
+      "startDate": "2021-09-20",
+      "summary": "Big 4 accounting firm contracted for supporting a global scale application.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Perform code deployments using Azure DevOps",
+        "Maintenance on existing hosts for patches, reboots, etc",
+        "Ticket queue triaging and customer guidance for basic issues",
+        "Reporting issues experienced with the platform by customers to help facilitate faster recognition of issues"
+      ]
+    },
+    {
+      "name": "AWS",
+      "location": "Seattle, WA",
+      "description": "IaC, CI/CD, and system maintainer",
+      "position": "Systems Engineer",
+      "url": "https://aws.com",
+      "startDate": "2020-04-13",
+      "endDate": "2021-09-17",
+      "summary": "AWS is the leader in Cloud technologies, providing everyone from me to massive corporations with solutions for many technology deployments",
+      "highlights": [
+
+      ]
+    },
+    {
+      "name": "cPanel",
+      "location": "Houston, TX",
+      "description": "Administration and maintainence of internal tools",
+      "position": "Systems Administrator",
+      "url": "https://cpanel.net",
+      "startDate": "2019-12-09",
+      "endDate": "2020-04-10",
+      "summary": "",
+      "highlights": [
+
+      ]
+    },
+    {
+      "name": "cPanel",
+      "location": "Houston, TX",
+      "description": "Administration and maintainence of internal tools",
+      "position": "Technical Support I",
+      "url": "https://cpanel.net",
+      "startDate": "2018-02-12",
+      "endDate": "2019-12-06",
+      "summary": "",
+      "highlights": [
+
+      ]
+    },
+    {
+      "name": "HostGator",
+      "location": "Houston, TX",
+      "description": "",
+      "position": "Migrations Adminstrator",
+      "url": "https://hostgator.com",
+      "startDate": "2018-02-12",
+      "endDate": "2020-04-10",
+      "summary": "",
+      "highlights": [
+
+      ]
+    },
+    {
+      "name": "HostGator",
+      "location": "Houston, TX",
+      "description": "",
+      "position": "Technical Support I-III",
+      "url": "https://hostgator.com",
+      "startDate": "2018-02-12",
+      "endDate": "2020-04-10",
+      "summary": "",
+      "highlights": [
+
       ]
     }
   ],
