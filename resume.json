@@ -17,7 +17,7 @@
       {
         "network": "Twitter",
         "username": "jdanbanan",
-        "url": ""
+        "url": "https://twitter.com/jdanbanan"
       },
       {
         "network": "Discord",
@@ -63,9 +63,9 @@
       "url": "https://cpanel.net",
       "startDate": "2019-12-09",
       "endDate": "2020-04-10",
-      "summary": "",
+      "summary": "cPanel provides an all encompassing webhosting and related software solutions for individuals to large hosting companies like GoDaddy",
       "highlights": [
-
+        ""
       ]
     },
     {
@@ -76,7 +76,7 @@
       "url": "https://cpanel.net",
       "startDate": "2018-02-12",
       "endDate": "2019-12-06",
-      "summary": "",
+      "summary": "cPanel provides an all encompassing webhosting and related software solutions for individuals to large hosting companies like GoDaddy",
       "highlights": [
 
       ]
