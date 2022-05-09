@@ -19,10 +19,7 @@
             "type": "python",
             "request": "launch",
             "name": "Serve HTTP",
-            "args": [
-                "-m",
-                "http.server"
-            ]
+            "module": "http.server"
         },
         {
             "type": "pwa-chrome",
